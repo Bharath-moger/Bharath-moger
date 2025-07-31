@@ -1,0 +1,67 @@
+.second{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    /* padding-inline: 50px; */
+
+}
+.second-sub{
+background-color: white;
+padding: 10px;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.second-sub-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-sub-1-left{
+    display: flex;
+    flex-direction: column;
+}
+.day-button{
+padding: 3px 15px;
+background-color: #6f74885e;
+border-radius: 10px;
+border: none;
+font-size: 0.8rem;
+opacity: 0.8;
+}
+.second-sub-2 img{
+    width: 100%;
+    max-width: 250px;
+}
+.second-sub-3{
+   display: flex; 
+   justify-content: space-between;
+}
+.second-sub-3-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.second-sub-3-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.point-1{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: blue;
+}
+.point-2{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: rgb(166, 166, 185);
+}
+.big-text{
+    font-size: 0.8rem;
+    font-weight: bold;
+    opacity: 0.8;
+}

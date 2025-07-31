@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 50px; */
+}
+.first-sub{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    gap: 10px;
+
+}
+.first-sub img{
+    width: 100%;
+    max-width: 35px;
+    background-color: blue;
+    border-radius: 5px;
+    margin-right: 10px;
+    
+}
+.image{
+    flex: 1;
+
+}
+.sub1{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+.number{
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+}
+.text{
+    font-size: 0.8rem;
+    color: rgb(83, 83, 83);
+}
+.details{
+     font-size: 0.9rem;
+    color: rgb(83, 83, 83);
+}
