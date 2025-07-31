@@ -12,7 +12,7 @@ function App() {
   return (
     <div className='main-container'>
       <First/>
-    
+    <Second/>
       <Third/>
     </div>
   )

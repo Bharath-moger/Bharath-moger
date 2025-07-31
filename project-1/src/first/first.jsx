@@ -1,9 +1,7 @@
 import React from "react";
 import "./first.css"
-import Second from "../second/second";
 const First=()=>{
  return(
-    <>
     <div className="first">
         <div className="first-sub">
                 <img src="https://img.icons8.com/?size=100&id=82775&format=png&color=000000" alt="" />
@@ -42,8 +40,6 @@ const First=()=>{
             </div>
         </div>
     </div>
-          <Second/>
-          </>
  )
 }
 export  default First
