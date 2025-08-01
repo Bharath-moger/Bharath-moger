@@ -6,6 +6,7 @@ import First from './first/first'
 import Second from './second/second'
 import Third from './third/third'
 
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -15,7 +16,19 @@ function App() {
     <Second/>
       <Third/>
     </div>
+    
   )
 }
 
 export default App
+// function App() {
+//   let i=1;
+  
+//   const [number, setNo] = useState(i);
+
+//   return (<div><h1>{number}</h1>
+//   <button onClick={()=>{setNo(i++)}}>click me</button>
+//   <button onClick={()=>{setNo(i--)}}>click me</button></div>
+//   )
+// }
+// export default App

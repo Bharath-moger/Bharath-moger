@@ -1,0 +1,43 @@
+.third-container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+    padding: 10px;
+}
+.notification{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.storage-items{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.storage{
+    width: 100%;
+    max-width: 250px;
+    margin-inline: auto;
+}
+.doc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.doc-text{
+    margin-right: auto;
+}
+.import{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+.import img{
+    width: 100%;
+    max-width: 35px;
+}

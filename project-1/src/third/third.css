@@ -37,28 +37,30 @@
 
 .third-sub-3 {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
+    text-align: left;
 }
 
 .details {
-    flex: 1;
+    flex: 1.6 ;
     font-size: 0.8rem;
 }
 
 .green {
     border: none;
-    padding: 5px 20px;
+    padding: 5px 5px;
     background-color: green;
     border-radius: 15px;
-    flex: 0.2;
+    flex: 0.8;
 }
 
 .red {
     border: none;
-    padding: 5px 20px;
+    padding: 5px 5px;
+    
     background-color: red;
     border-radius: 15px;
-    flex: 0.2;
+    flex: 0.8;
 
 }
 
@@ -67,5 +69,5 @@
     padding: 5px 5px;
     background-color: orange;
     border-radius: 15px;
-    flex: 0.3;
+    flex: 0.8;
 }
