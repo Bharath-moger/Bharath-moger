@@ -1,0 +1,16 @@
+.footer-main{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding: 2rem 5rem;
+    background-color: black;
+    
+}
+td{
+    padding: 0.3rem;
+}
+
+td:hover{
+text-decoration: underline;
+}

@@ -1,10 +1,10 @@
- #root {
+#root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
-/*
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -39,29 +39,4 @@
 
 .read-the-docs {
   color: #888;
-} */
- *{
-  font-family: sans-serif;
- }
-.main-container{
-  background-color: #7e7e7e14;
-  padding: 50px;
-  /* display: flex;
-  flex-direction: column; */
-  gap: 20px;
 }
-
-
-
-/* active links */
-/* 1st */
-/* .active{
-  color: green;
-} */
- /* 2nd  */
- /* .a{
-  color: red;
- }
- .b{
-  color: blue;
- } */

@@ -1,0 +1,70 @@
+/* body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #fff;
+} */
+
+.container {
+  max-width: 480px;
+  margin: auto;
+  padding: 20px;
+}
+
+.logo {
+  width: 120px;
+  margin: 20px 0;
+}
+
+.card-form {
+  background: #fff;
+}
+
+.back-link {
+  color: #0071eb;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.card-form h2 {
+  font-size: 22px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.card-icons img {
+  height: 30px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #00c44f;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.terms {
+  font-size: 12px;
+  color: #666;
+  margin: 20px 0;
+}
+
+.save-button {
+  background-color: #e50914;
+  color: #fff;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

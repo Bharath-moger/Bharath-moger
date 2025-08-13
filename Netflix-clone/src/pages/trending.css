@@ -1,0 +1,87 @@
+.trending-main-container{
+    display: flex;
+    flex-direction: column;
+    /* height: 500px; */
+    gap: 1rem;
+    padding: 2rem 5rem;
+    background-color: black;
+}
+#trend{
+    text-align: left;
+    color: white;
+}
+.trend-cards-container{
+    display: flex;
+    gap: 20px;
+    /* border: 1px solid red; */
+    height: max-content;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+.trend-cards{
+/* border: 2px solid green; */
+width: 200px;
+height: 300px;
+flex-shrink: 0;
+transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+.trend-cards:hover{
+  transform: scale(1.1);   /* rotate(1deg) Big scale + slight rotation */
+  
+}
+
+.trend-cards img{
+    width: 100%;
+    max-width: 200px;
+    height: 280px;
+    border-radius: 0.5rem;
+}
+/* .trend-cards img:hover{
+    
+} */
+ .poster-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.poster-modal {
+  background: #00000070;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 420px;
+  width: 90%;
+  color: white;
+  animation: zoomIn 0.2s ease;
+}
+
+.poster-modal img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.poster-modal h2 {
+  margin-top: 10px;
+}
+
+.poster-modal button {
+  background: red;
+  border: none;
+  padding: 8px 12px;
+  margin-top: 12px;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+@keyframes zoomIn {
+  from { transform: scale(0.9); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}

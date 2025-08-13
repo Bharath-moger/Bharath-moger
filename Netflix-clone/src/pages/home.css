@@ -1,0 +1,76 @@
+.Homepage-main-container{
+    background-image: url('https://www.megacable.com.mx/images/netflix/background-netflix.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+    padding-top: 2rem;
+    
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 3rem;
+}
+#netflix{
+    color: red;
+    font-size: 2.4rem;
+    /* flex: 7; */
+    /* text-align: left; */
+    /* margin-left: 150px; */
+}
+.button-container{
+ display: flex;
+ align-items: center;
+ gap: 20px;
+ /* flex: 3; */
+}
+#language{
+ padding: 0.5rem 1.5rem;
+ color: white;
+ background-color: unset;
+ font-weight: bold;
+ font-size: 0.85rem;
+ border-radius: 0.4rem;
+ outline: none;
+ border: 1px solid white;
+}
+#sign-up{
+ background-color: red;
+ padding: 0.5rem 1rem;
+ color: white;
+ font-weight: bold;
+ font-size: 0.85rem;
+ border-radius: 0.3rem;
+ outline: none;
+ border: none;
+}
+.home-content{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.8rem;
+    height: 87%;
+    text-align: center;
+}
+.home-content h1{
+    font-weight: bold;
+    font-size: 4rem;
+}
+.home-content p{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.finish-signup{
+    background-color: red;
+    color: white;
+    padding: 0.9rem 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 0.3rem;
+}

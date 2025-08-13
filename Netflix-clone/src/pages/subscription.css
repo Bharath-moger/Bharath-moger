@@ -1,0 +1,62 @@
+.subscription-main{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.subscription-container{
+   display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    
+}
+.subscription-container-main{
+display: flex;
+justify-content: center;
+    align-items: center;
+}
+.subscription-card-container{
+    display: flex;
+    gap: 1rem;
+    /* width: 1200px; */
+    padding-top: 1rem;
+    flex-wrap: wrap;
+    
+}
+.subscriptions-card{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+    padding-bottom: 2.8rem;
+    border: 1px solid rgba(0, 0, 0, 0.311);
+    border-radius: 1rem;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+     width: 250px;
+}
+.subscriptions-card:hover{
+  transform: scale(1.07);
+}
+.card-first-part{
+    /* background: linear-gradient(to right, #4003ba, #e23f2d);  */
+    background-image: linear-gradient(to right, #371296, #db2525de);
+    padding: 1rem;
+    color: white;
+    border-radius: 1rem;
+}
+.card-part{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.229);
+    padding-bottom: 1rem;
+}
+.dark{
+    font-size: 1.1rem;
+}
+.light{
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.801);
+}
+.next-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

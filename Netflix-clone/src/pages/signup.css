@@ -1,0 +1,41 @@
+.signup-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.117);
+    padding-bottom: 2rem;
+   padding: 2rem 4rem;
+   flex-wrap: wrap;
+}
+#signout{
+ padding: 0.5rem 1.5rem;
+ background-color: unset;
+ font-weight: bold;
+ font-size: 1.2rem;
+ border-radius: 0.4rem;
+ outline: none;
+ border: 1px solid rgb(0, 0, 0);
+}
+.subscription-card{
+display: flex;
+justify-content: center;
+}
+.subscription-content{
+     border: 1px solid rgba(0, 0, 0, 0.132);
+ display: flex;
+ flex-direction: column;
+ gap: 2rem;
+ align-items: center;
+ width: 300px;
+ padding: 2rem;
+}
+
+.sub-details{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+}
