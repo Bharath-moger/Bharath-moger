@@ -1,0 +1,60 @@
+.landingpage-main-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+.landingpage-main-container p{
+    color: #3A0519;
+    
+}
+.landingpage-main-container h1{
+    color: #003729;
+}
+#welcome imporr{
+    color: #0D1164;
+}
+.html-css-js-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.quiz-card-container{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    justify-content: space-between;
+    grid-area: 1rem;
+}
+#html{
+     width: 100%;
+     max-width: 160px;
+    }
+#css{
+     width: 100%;
+     max-width: 150px;
+    }
+#js{
+     width: 150px;
+     /* max-width: 110px; */
+     padding: 1.3rem;
+    }
+#quiz-start-btn {
+  background: #154D71;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 1rem; /* pill shape */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.4);
+}
+
+
+
+    

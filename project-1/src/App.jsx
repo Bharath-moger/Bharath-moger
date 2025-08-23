@@ -27,8 +27,10 @@ import FormHandling from './FormHandling'
 import FAQ from './netflixfaq'
 import UseEffect from './useEffect'
 import Hooks from './Hooks/Hooks'
+import { APIpractice } from './apiPractice/APIpractice'
 
 
+// export const ExportVariable ="Exporting..."
 const ExportVariable ="Exporting..."
 export{ExportVariable}
 
@@ -103,7 +105,7 @@ function App() {
     // </div>
     <>
     {/* <RouterProvider router={router}/> */}
-    {/* <Router>
+    <Router>
       <Header/>
       <Routes>
         <Route path='/' element={<Home/>} />
@@ -114,13 +116,14 @@ function App() {
         <Route path='/effect' element={<UseEffect/>} />
         <Route path='/FormHandling' element={<FormHandling/>}/>
         <Route path='/netflix' element={<FAQ/>}/>
-        
+        <Route path='/hooks' element={<Hooks/>}/>
+        <Route path='/API' element={<APIpractice/>}/>
       </Routes>
       <Footer/>
-    </Router> */}
+    </Router>
 
 
-      <Hooks/>
+      
 
     
     

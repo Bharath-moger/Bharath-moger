@@ -19,7 +19,7 @@ const Prcatice = () => {
   //condition
   //1st type
 //   const condition = ()=>{
-//     const age = prompt("Enter you age");
+//     const  = prompt("Enter you age")age;
 //     return(
 //            <h1>{ age>=18 ? "Adult" : "Child" }</h1>
 //     )

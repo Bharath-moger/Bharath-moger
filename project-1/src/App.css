@@ -4,6 +4,18 @@
   padding: 2rem;
   text-align: center;
 }
+#err{
+  color: red;
+}
+.pockemon-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.155);
+  width: max-content;
+}
 /*
 .logo {
   height: 6em;

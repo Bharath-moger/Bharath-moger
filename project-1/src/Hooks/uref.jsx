@@ -1,6 +1,6 @@
 import React, { memo, useEffect, useRef, useState } from 'react'
 
-export const Uref = memo( () => {
+export const Uref = memo( ({data}) => {
 
     //FIRST USE OF REF HOOK IS TO CRETE MUTABLE VARIABLE
     const [input, setiInput] = useState("");
@@ -27,7 +27,7 @@ export const Uref = memo( () => {
             <h2>input is: {input}</h2>
             {/* <h2>page rendered:{count}</h2> */}
             <h2>page rendered:{refVariable.current}</h2>
-
+            <p>BioData: {data.name} {data.age} years old</p>
             <input type="text" ref={myInput} /> <br />
             <button onClick={handleClick}>click</button>       
             </>
