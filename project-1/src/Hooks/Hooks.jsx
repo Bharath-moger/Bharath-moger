@@ -1,10 +1,12 @@
 import React, { useMemo, useState } from 'react'
-import UContext from './uContext'
 import { Uref } from './uref'
 import { UMemo } from './uMemo'
 import { UEffect } from './uEffect'
 import { UReducer } from './uReducer'
 import { UCallback } from './uCallback'
+import { MyContextProvider } from '../Context-api/userContext'
+import UContext from './uContext'
+import { Memo } from './Memo'
 
 export default function Hooks() {
   const [count, setCount] = useState(0)
@@ -20,17 +22,21 @@ export default function Hooks() {
       age:21
     }
   },[])
+
   return (
     <>
-    <p>parent component</p>
+    <h1>parent component</h1>
     <p>{count}</p>
     <button onClick={()=>{setCount(count+1)}}>click</button>
-    <UContext/>
+    <Memo value="bharath" data={biodata}/>
+    <MyContextProvider>
     <Uref data={biodata}/>
     <UMemo/>
     <UEffect/>
     <UReducer/>
     <UCallback/>
+    <UContext/>
+    </MyContextProvider>
     </>
   )
 }

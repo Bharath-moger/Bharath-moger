@@ -1,17 +1,9 @@
 import React, { createContext } from 'react'
-
-const MyUserContext = createContext();
-
-const UserContextprovider = ({children}) => {
-const obj = {
-    name:"ram",
-    age:20
-};
-
+export const MyContext = createContext()
+export const MyContextProvider = ({ children }) => {
+  const contextVar = "useContext hook";
+  const num = 1;
   return (
-    <MyUserContext.Provider value={obj}>
-        {children}
-    </MyUserContext.Provider>
+    <MyContext.Provider value={{contextVar,num}}>{children}</MyContext.Provider>
   )
 }
-export {MyUserContext,UserContextprovider}

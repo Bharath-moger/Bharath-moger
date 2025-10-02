@@ -1,15 +1,12 @@
-import React, { } from 'react'
-// import { MyUserContext } from '../Context-api/userContext';
+import React, { useContext } from 'react'
+import { MyContext } from '../Context-api/userContext'
 
 export default function UContext() {
-// const myFirstContext  =    useContext(firstContext)
-
-// console.log(myFirstContext);
-// const contextValue = useContext(MyUserContext);
+  const {contextVar,num} = useContext(MyContext)
   return (
     <>
     <h1>useContext()</h1>
-    {/* <h2>name is {contextValue.name} and age is {contextValue.age}</h2> */}
+    <h2>{num} time i am creating  {contextVar }</h2>
     </>
   )
 }

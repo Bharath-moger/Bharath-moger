@@ -62,7 +62,7 @@ const [stepup, setStepup] = useState(0)
       <p>average age is : {avgAge}</p>
       <h1>useState Challenge</h1>
       <p>count:{count1}</p>
-      <input type="number" value={stepup} onChange={(e)=>{setStepup(Number(e.target.value))}} disabled={stepup>=100}/><br /><br /> 
+      <input type="number" value={stepup} onChange={(e)=>{setStepup(Number(e.target.value))}}/><br /><br /> 
       <button onClick={()=>{setCount1(count1+stepup)}} disabled={count1>=100}>Increment</button>
       <button onClick={()=>{setCount1(count1-stepup)}} disabled={count1<=0}>Decrement</button>
       <button onClick={()=>{setCount1(0)}}>Reset</button>

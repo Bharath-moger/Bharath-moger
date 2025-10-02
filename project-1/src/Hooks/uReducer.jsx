@@ -18,7 +18,7 @@ export const UReducer = () => {
 
   // }
 
-  //IN THE COPLEX PROBLEM THERE MAY A LOT OF INITIAL VALUE LIKE FORM DATA NAME PASS EMAIL ETC..
+  //IN THE COmPLEX PROBLEM THERE MAY A LOT OF INITIAL VALUE LIKE FORM DATA NAME PASS EMAIL ETC..
   const initialState = {
     count: 0,
     inc: 2,
@@ -26,7 +26,7 @@ export const UReducer = () => {
   }
 
   const reducer = (state, action) => {
-console.log(state);
+console.log(action);
 
     switch (action.value) {
       case "INC":
@@ -48,7 +48,7 @@ console.log(state);
   const [istate, dispatch] = useReducer(reducer, initialState)
   return (
     <>
-      <h3>useReducer()</h3>
+      <h1>useReducer()</h1>
       <p>{istate.count}</p>
       <button onClick={() => { dispatch({ value: "INC" }) }}>inc</button>
       <button onClick={() => { dispatch({ value: "DEC" }) }}>dec</button>

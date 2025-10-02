@@ -25,7 +25,7 @@ export default function FormHandling() {
   // }
 
   // const handleSubmit =(evt)=>{
-  //   evt.preventDefault();
+  //   evt.preventDefault();  
   //   const formData = {
   //       name,
   //       email,
